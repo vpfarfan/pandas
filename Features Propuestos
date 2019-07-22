@@ -1,2 +1,16 @@
-
-Escribir aquí la lista de features
+N° COLUMNA	ROL	ROL HOLT-WINTERS	TIPO
+1	 USER_ID	PK		Numérica
+2	 FEC_EVENT	PK		Fecha
+3	 Año	Variable Predictiva	Tendencia	Numérica
+4	 Mes	Variable Predictiva	Estacionalidad	Numérica
+5	 Día	Variable Predictiva	Estacionalidad	Numérica
+6	 Hora	Variable Predictiva	Valor	Numérica
+7	 PAGE	Variable Predictiva		Categórica
+8	 CONTENT_CATEGORY	Variable Predictiva		Categórica
+9	 CONTENT_CATEGORY_TOP	Variable Predictiva		Categórica
+10 CONTENT_CATEGORY_BOTTOM	Variable Predictiva		Categórica
+11 SITE_ID	Variable Predictiva		Categórica
+12 ON_SITE_SEARCH_TERM	Variable Predictiva		Categórica
+13 CONNECTION_SPEED	Variable Predictiva		Numérica
+14 IS_MOBILE_DEVICE	Variable Predictiva		Binaria
+15 CONVERSION	Variable Dependiente		Binaria
